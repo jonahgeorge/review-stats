@@ -8,6 +8,8 @@ Calculates Pull Request review stats for a given Github repository.
 go install github.com/jonahgeorge/review-stats
 ```
 
+For a repository with ~2,000 PRs, the script takes roughly 10 minutes to complete.
+
 ```sh
 review-stats -owner jonahgeorge -repo review-stats -github-token $GITHUB_TOKEN
 
